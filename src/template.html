@@ -7,7 +7,21 @@
 </head>
 
 <body>
-    <h1>Weather App</h1>
+    <header>
+        <h1>Weather App</h1>
+        <form class="search-form">
+            <input type="search" required>
+            <button type="submit">Search</button>
+        </form>
+    </header>
+
+    <div class="current-weather">
+        <h1 class="place-name">Somewhere</h1>
+        <h2 class="temperature">Cold</h2>
+        <p>Feels like: <span class="temp-feeling"></span></p>
+        <p>Humidity: <span class="humidity"></span></p>
+        <p>Wind: <span class="wind"></span></p>
+    </div>
 </body>
 
 </html>
